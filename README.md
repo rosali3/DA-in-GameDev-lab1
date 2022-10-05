@@ -201,9 +201,65 @@ public class NewBehaviourScript : MonoBehaviour
 
 
 ## Задание 2
-1. 
+1. Смешать код с третьего задания первой лабораторной работы и первого задания второй 
 
-**Код реализации:
+![image](https://user-images.githubusercontent.com/87576995/194128840-696f536b-404f-4704-86d4-b830261fa96a.png)
+
+
+***Код реализации:
+{import gspread
+import numpy as np
+x = [3,21,22,34,54,34,55,67,89,99]
+x = np.array(x)
+y = [2,22,24,65,79,82,55,130,150,199]
+y = np.array(y)
+def model(a, b, x):
+    return a*x + b
+#The most commonly used loss function of linear regression model is the loss function of mean variance difference
+def loss_function(a, b, x, y):
+    num = len(x)
+    prediction=model(a,b,x)
+    return (0.5/num) * (np.square(prediction-y)).sum()
+
+def optimize(a,b,x,y):
+    num = len(x)
+    prediction = model(a,b,x)
+    da = (1.0/num) * ((prediction -y)*x).sum()
+    db = (1.0/num) * ((prediction -y).sum())
+    a = a - Lr*da
+    b = b - Lr*db
+    return a, b
+
+def iterate(a,b,x,y,times):
+    for i in range(times):
+        a,b = optimize(a,b,x,y)
+    return a,b
+
+gc = gspread.service_account(filename='unitydatascience-364410-a6cc42f0950f.json')
+sh = gc.open("UnitySheets")
+mon = list(range(1,11))
+
+a = np.random.rand(1)
+print(a)
+b = np.random.rand(1)
+print(b)
+Lr = 0.000001
+
+
+i = 0
+while i <= len(mon):
+    i += 1
+    if i == 0:
+        continue
+    else:
+        a, b = iterate(a, b, x, y, 100)
+        loss = loss_function(a, b, x, y)
+        tempInf = str(loss)
+        tempInf = tempInf.replace('.',',')
+        sh.sheet1.update(('A' + str(i)), str(i))
+        sh.sheet1.update(('B' + str(i)), str(tempInf))
+        print(tempInf)
+}
 
 
 
