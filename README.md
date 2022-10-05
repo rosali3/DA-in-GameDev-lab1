@@ -58,7 +58,16 @@
 
 6. Создаем гугл таблицу и добавляем редактором почту из Деталей сервис аккаунта
 
-7. Скачиваем gspread и numpy в PyCharm'e
+7. Скачиваем gspread и numpy в PyCharm'e и начинаем писать код*(в коде вставляем ссылку из гугл таблиц и этим связываем эти два элемента)
+![image](https://user-images.githubusercontent.com/87576995/194025966-37d443a5-a427-4e73-a582-8d5541c9d247.png)
+![image](https://user-images.githubusercontent.com/87576995/194026029-591b1be5-2657-485c-97c1-690a25a95e19.png)
+
+8. Создаем API ключ в гугл клауде. Сужая его до API ключа к гугл таблицам. Дать редакторские права в гугл таблицах этому ключу
+
+9. Создаем новый проект в Unity
+9.5 Скачиваем jsonPackage и soundPackage из предоставленного яндекс диска и вставляем их в Assets
+9.6 Создаем пустоту и добавляем к ней AudioSource
+9.7 Создаем C# Код в папке с JSON script
 
 
 
@@ -66,7 +75,25 @@
 
 
 *Код реализации:
-print('hello world')
+import gspread
+import numpy as np
+gc = gspread.service_account(filename='unitydatascience-364410-a6cc42f0950f.json')
+sh = gc.open("UnitySheets")
+price = np.random.randint(2000, 10000, 11)
+mon = list(range(1,11))
+i = 0
+while i <= len(mon):
+    i += 1
+    if i == 0:
+        continue
+    else:
+        tempInf = ((price[i-1]-price[i-2])/price[i-2])*100
+        tempInf = str(tempInf)
+        tempInf = tempInf.replace('.',',')
+        sh.sheet1.update(('A' + str(i)), str(i))
+        sh.sheet1.update(('B' + str(i)), str(price[i-1]))
+        sh.sheet1.update(('C' + str(i)), str(tempInf))
+        print(tempInf)
 
 
 
