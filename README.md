@@ -1,5 +1,5 @@
 # АНАЛИЗ ДАННЫХ И ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ [in GameDev]
-Отчет по лабораторной работе #2 выполнил(а):
+Отчет по лабораторной работе #2 выполнила:
 - Набиуллина Розалия Дамировна, ДГТУ, Школа Икс
 
 Отметка о выполнении заданий (заполняется студентом):
@@ -42,7 +42,7 @@
 ## Ход работы
 
 ## Задание 1
-0. Включаем Многоточие
+0. Включаем Многоточие, а точнее альбом в вк Лучшие песни за 20 лет
 1. Открыть через браузер [консоль облака гугл](https://console.cloud.google.com/apis/credentials?project=unitydatascience-364410)
 
 2. Создать новый проект ![image](https://user-images.githubusercontent.com/87576995/194017212-5dba96e5-5f6c-48cb-8cd9-0eda8248cee8.png) 
@@ -50,22 +50,24 @@
 3. Нажимаем на название нашего проекта, переходим в Marketplace и включаем google drive apl. В APIs & Services включаем google sheets api
 ![image](https://user-images.githubusercontent.com/87576995/194017920-4cd72ee4-9edd-4a91-adda-735700fd959c.png
 
-4. Creditentials
+4. Creditentials --> создаем service account
 ![image](https://user-images.githubusercontent.com/87576995/194021102-5a885661-e3e4-460b-9917-67480405e1fb.png)
 
+5. Добавляем API ключ к сервис аккаунту в формате JSON. Сохраняем его в папке с нашим проектом в PyCharm'е
+![image](https://user-images.githubusercontent.com/87576995/194023246-9107cb56-52ad-42e1-b7f2-a6d6e40a1730.png)
+
+6. Создаем гугл таблицу и добавляем редактором почту из Деталей сервис аккаунта
+
+7. Скачиваем gspread и numpy в PyCharm'e
 
 
-5. Внести код*
-6. Сделать скриншот
-7. 
-№. конечный результат в гугл клауд консоль
-![image](https://user-images.githubusercontent.com/87576995/194015415-55571437-2daf-4904-9ea7-fd0adae23af3.png)
+
+
 
 
 *Код реализации:
 print('hello world')
 
-![image_2022-09-28_21-42-04](https://user-images.githubusercontent.com/87576995/192866691-989638e8-9e2c-4fef-aa9d-592fbd0a172d.png)
 
 
 ## Задание 2
