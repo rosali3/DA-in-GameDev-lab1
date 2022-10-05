@@ -201,31 +201,11 @@ public class NewBehaviourScript : MonoBehaviour
 
 
 ## Задание 2
-1. Открыть скачанный со всеми расширениями и дополнительными приложениями Unity
-2. Создать новый 3D проект
-3. В Hierarchy создать пустой объект
-4. В окне Project создать папку Скрипты
-5. В папке Скрипты создать C# скрипт файл
-6. Вставить код**
-7. Перенести файл с кодом на пустой объект в окошке Scene
-8. Открыть Console
-9. Порадоваться, что тебя поприветствовал твой код
+1. 
 
 **Код реализации:
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-public class test : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    Debug.Log("Hello World");
-        
-    }
-}
+
 
 
 ![photo_2022-09-26_19-51-39](https://user-images.githubusercontent.com/87576995/192866864-4b9def9b-432b-47b8-8efd-a24aee2f9e94.jpg)
