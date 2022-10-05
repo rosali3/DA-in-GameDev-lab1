@@ -204,6 +204,7 @@ public class NewBehaviourScript : MonoBehaviour
 1. Смешать код с третьего задания первой лабораторной работы и первого задания второй 
 
 ![image](https://user-images.githubusercontent.com/87576995/194128840-696f536b-404f-4704-86d4-b830261fa96a.png)
+![image](https://user-images.githubusercontent.com/87576995/194131593-3267225e-50da-4214-b047-2ebf5d550b6b.png)
 
 
 ***Код реализации:
