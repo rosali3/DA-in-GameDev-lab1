@@ -207,7 +207,7 @@ public class NewBehaviourScript : MonoBehaviour
 
 
 ***Код реализации:
-{import gspread
+import gspread
 import numpy as np
 x = [3,21,22,34,54,34,55,67,89,99]
 x = np.array(x)
@@ -259,7 +259,6 @@ while i <= len(mon):
         sh.sheet1.update(('A' + str(i)), str(i))
         sh.sheet1.update(('B' + str(i)), str(tempInf))
         print(tempInf)
-}
 
 
 
