@@ -1,5 +1,5 @@
 # АНАЛИЗ ДАННЫХ И ИСКУССТВЕННЫЙ ИНТЕЛЛЕКТ [in GameDev]
-Отчет по лабораторной работе #1 выполнил(а):
+Отчет по лабораторной работе #3 выполнила:
 - Набиуллина Розалия Дамировна, ДГТУ, Школа Икс
 
 Отметка о выполнении заданий (заполняется студентом):
@@ -30,27 +30,106 @@
 - Задание 2.
 - Код реализации выполнения задания. Визуализация результатов выполнения.
 - Задание 3.
-- Код реализации выполнения задания. Визуализация результатов выполнения (если применимо).
+- Код реализации выполнения задания. Визуализация результатов выполнения.
 - Выводы.
-- ✨Magic ✨
 
 
 
 ## Цель работы
-Ознакомиться с основными операторами языка Python на примере реализации линейной регрессии. Научится пользоваться google.colab и Unity/Visual Studio Code
+Познакомиться с программными средствами для создания системы машинного обучения и ее интеграции в Unity.
 
 ## Ход работы
 
 ## Задание 1
-1. Открыть через браузер google.colab.
-2. Создать новый блокнот на Google Диске
-3. Внести код*
-4. Сделать скриншот
+1. Открыть Unity. Создать пустой объект и добавить ML agent  
+![image](https://user-images.githubusercontent.com/87576995/194870984-ae32c92b-27e2-46f9-b928-71d5be91bae2.png)
+![image](https://user-images.githubusercontent.com/87576995/194871921-963eb8de-035f-411e-8351-7009900a5574.png)
+
+
+2. Запустить Anaconda Prompt от имени администратора
+
+Получаем это чудо 
+{{
+(base) C:\Windows\system32>conda create -n MlAgent python=3.6.13
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.14.0
+  latest version: 22.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\rosalie\anaconda3\envs\MlAgent
+
+  added / updated specs:
+    - python=3.6.13
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2021.5.30          |   py36haa95532_0         140 KB
+    pip-21.2.2                 |   py36haa95532_0         1.9 MB
+    python-3.6.13              |       h3758d61_0        14.6 MB
+    setuptools-58.0.4          |   py36haa95532_0         776 KB
+    sqlite-3.39.3              |       h2bbff1b_0         804 KB
+    wincertstore-0.2           |   py36h7fe50ca_0          14 KB
+    ------------------------------------------------------------
+                                           Total:        18.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  certifi            pkgs/main/win-64::certifi-2021.5.30-py36haa95532_0
+  pip                pkgs/main/win-64::pip-21.2.2-py36haa95532_0
+  python             pkgs/main/win-64::python-3.6.13-h3758d61_0
+  setuptools         pkgs/main/win-64::setuptools-58.0.4-py36haa95532_0
+  sqlite             pkgs/main/win-64::sqlite-3.39.3-h2bbff1b_0
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  wincertstore       pkgs/main/win-64::wincertstore-0.2-py36h7fe50ca_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+sqlite-3.39.3        | 804 KB    | ############################################################################ | 100%
+setuptools-58.0.4    | 776 KB    | ############################################################################ | 100%
+certifi-2021.5.30    | 140 KB    | ############################################################################ | 100%
+python-3.6.13        | 14.6 MB   | ############################################################################ | 100%
+wincertstore-0.2     | 14 KB     | ############################################################################ | 100%
+pip-21.2.2           | 1.9 MB    | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate MlAgent
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+
+(base) C:\Windows\system32>conda activate MlAgent
+
+(MlAgent) C:\Windows\system32>pip install }}
 
 *Код реализации:
-print('hello world')
-
-![image_2022-09-28_21-42-04](https://user-images.githubusercontent.com/87576995/192866691-989638e8-9e2c-4fef-aa9d-592fbd0a172d.png)
 
 
 ## Задание 2
