@@ -42,6 +42,7 @@
 
 ## Задание 1
 1. Открыть Unity. Создать пустой объект и добавить ML agent  
+
 ![image](https://user-images.githubusercontent.com/87576995/194870984-ae32c92b-27e2-46f9-b928-71d5be91bae2.png)
 ![image](https://user-images.githubusercontent.com/87576995/194871921-963eb8de-035f-411e-8351-7009900a5574.png)
 
@@ -49,21 +50,15 @@
 2. Запустить Anaconda Prompt от имени администратора
 
 Получаем это чудо 
-{{
-(base) C:\Windows\system32>conda create -n MlAgent python=3.6.13
-Collecting package metadata (current_repodata.json): done
-Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
-Collecting package metadata (repodata.json): done
-Solving environment: done
 
+(base) C:\Windows\system32>conda create -n MlAgent python=3.6.13
 
 Proceed ([y]/n)? y
 
-
 (base) C:\Windows\system32>conda activate MlAgent
 
-
 потом это. очень многострадальное
+
 ![image](https://user-images.githubusercontent.com/87576995/195120984-8f1df58e-4198-4ee3-95a9-6c9d6d6b285e.png)
 
 
