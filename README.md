@@ -129,6 +129,10 @@ Retrieving notices: ...working... done
 
 (MlAgent) C:\Windows\system32>pip install }}
 
+потом это. очень многострадальное
+![image](https://user-images.githubusercontent.com/87576995/195120984-8f1df58e-4198-4ee3-95a9-6c9d6d6b285e.png)
+
+
 *Код реализации:
 
 
