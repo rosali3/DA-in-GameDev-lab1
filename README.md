@@ -57,77 +57,11 @@ Collecting package metadata (repodata.json): done
 Solving environment: done
 
 
-==> WARNING: A newer version of conda exists. <==
-  current version: 4.14.0
-  latest version: 22.9.0
-
-Please update conda by running
-
-    $ conda update -n base -c defaults conda
-
-
-
-## Package Plan ##
-
-  environment location: C:\Users\rosalie\anaconda3\envs\MlAgent
-
-  added / updated specs:
-    - python=3.6.13
-
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    certifi-2021.5.30          |   py36haa95532_0         140 KB
-    pip-21.2.2                 |   py36haa95532_0         1.9 MB
-    python-3.6.13              |       h3758d61_0        14.6 MB
-    setuptools-58.0.4          |   py36haa95532_0         776 KB
-    sqlite-3.39.3              |       h2bbff1b_0         804 KB
-    wincertstore-0.2           |   py36h7fe50ca_0          14 KB
-    ------------------------------------------------------------
-                                           Total:        18.2 MB
-
-The following NEW packages will be INSTALLED:
-
-  certifi            pkgs/main/win-64::certifi-2021.5.30-py36haa95532_0
-  pip                pkgs/main/win-64::pip-21.2.2-py36haa95532_0
-  python             pkgs/main/win-64::python-3.6.13-h3758d61_0
-  setuptools         pkgs/main/win-64::setuptools-58.0.4-py36haa95532_0
-  sqlite             pkgs/main/win-64::sqlite-3.39.3-h2bbff1b_0
-  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1
-  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2
-  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
-  wincertstore       pkgs/main/win-64::wincertstore-0.2-py36h7fe50ca_0
-
-
 Proceed ([y]/n)? y
 
 
-Downloading and Extracting Packages
-sqlite-3.39.3        | 804 KB    | ############################################################################ | 100%
-setuptools-58.0.4    | 776 KB    | ############################################################################ | 100%
-certifi-2021.5.30    | 140 KB    | ############################################################################ | 100%
-python-3.6.13        | 14.6 MB   | ############################################################################ | 100%
-wincertstore-0.2     | 14 KB     | ############################################################################ | 100%
-pip-21.2.2           | 1.9 MB    | ############################################################################ | 100%
-Preparing transaction: done
-Verifying transaction: done
-Executing transaction: done
-#
-# To activate this environment, use
-#
-#     $ conda activate MlAgent
-#
-# To deactivate an active environment, use
-#
-#     $ conda deactivate
-
-Retrieving notices: ...working... done
-
 (base) C:\Windows\system32>conda activate MlAgent
 
-(MlAgent) C:\Windows\system32>pip install }}
 
 потом это. очень многострадальное
 ![image](https://user-images.githubusercontent.com/87576995/195120984-8f1df58e-4198-4ee3-95a9-6c9d6d6b285e.png)
