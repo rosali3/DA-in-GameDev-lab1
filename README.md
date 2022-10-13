@@ -132,7 +132,8 @@ public class roller_agent : Agent
 5. Скачиваем файл rollerball_config.yaml в папку с Unity проектом
 
 6. В Anaconda prompt продолжаем. Пишем 
-ml-agents learn rollerball_config.yaml --run-id=RollerBall --resume
+(MlAgent) C:\Users\rosalie>cd C:\Users\rosalie\Lab3
+(MlAgent) C:\Users\rosalie\Lab3>mlagents-learn rollerball_config.yaml --run-id=RollerBall --resume
 
 
 ## Задание 2
