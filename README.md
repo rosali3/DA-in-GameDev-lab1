@@ -64,12 +64,12 @@ Proceed ([y]/n)? y
 3. Возвращаемся в Unity. Создаем куб, сферу и плоскость. Перемещаем их в пространстве. Раскрашиваем их с помощью создания Материалов. Перемещаем объекты в Иерархии в Целевую область
 
 ![image](https://user-images.githubusercontent.com/87576995/195134788-6248ed82-eeb0-43b9-89a4-7a027848517e.png)
+![image](https://user-images.githubusercontent.com/87576995/197004569-c24df43a-0bcd-44b8-a9a8-06136309ef99.png)
+
 
 4. Добавляем компоненты к шарику(roller_agent'у): RigidBody, Script(пишем код* прямо там), Decision Requister, Behavioural Parameters
-![image](https://user-images.githubusercontent.com/87576995/197002680-8f4c2858-e223-406c-95ef-57bcde52faa2.png)
 
-
-![image](https://user-images.githubusercontent.com/87576995/195153834-7b7d7a63-e667-42b4-a719-a7361a458e5d.png)
+![Uploading image.png…]()
 
 
 *Код реализации:
