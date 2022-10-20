@@ -135,7 +135,9 @@ public class roller_agent : Agent
 6. В Anaconda prompt продолжаем. Пишем 
 (MlAgent) C:\Users\rosalie>cd C:\Users\rosalie\Lab3
 (MlAgent) C:\Users\rosalie\Lab3>mlagents-learn rollerball_config.yaml --run-id=RollerBall --resume
-
+    
+7. Мы начали обучение модели. Нужно подождать еще немного времени...
+8. Модель обучилась и теперь шар более ловко катится за кубом
 
 ## Задание 2
 1.
@@ -145,7 +147,7 @@ public class roller_agent : Agent
 
 
 ## Выводы
-
+Я научилась заставлять работать МЛ агента(после стольких усилий только "заставляла" и подходит..), который учит шарик RollerAgent подкатываться к кубу Target 
     
     
 | Plugin | README |
